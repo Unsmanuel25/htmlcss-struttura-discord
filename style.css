@@ -1,0 +1,161 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(92, 92, 255);
+    color: white;
+}
+
+/*Utils*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.white {
+    background-color: white;
+    height: 500px;
+}
+
+.gray {
+    background-color: gray;
+    height: 500px;
+}
+
+.debug .border {
+    border: 2px dashed black;
+}
+
+/*header*/
+
+.nav-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav-container>* {
+    flex-basis: 30%;
+    padding: 10px 0;
+    background-color: rgb(255, 187, 0);
+}
+
+.nav.logo {
+    display: block;
+}
+
+.nav-menu {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-action {
+    text-align: right;
+}
+
+.main {
+    height: 600px;
+    background-color: darkblue;
+    padding: 50px;
+
+    display: flex;
+    justify-content: cente;
+}
+
+.main .inside-main {
+    background-color: rgb(255, 101, 127);
+    width: 50%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 0;
+}
+
+
+.left {
+    height: 300px;
+    flex-basis: 70%;
+    background-color: rgb(255, 101, 127)
+}
+
+.right {
+    width: 30%;
+    background-color: darkblue;
+}
+
+.download {
+    background-color: gray;
+    height: 400px;
+}
+
+.quadrato {
+    height: 400px;
+    width: 400px;
+}
+
+.green {
+    background-color: gray;
+}
+
+.quadrato {
+    background-color: green;
+    height: 300px;
+    width: 1200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.footer-top {
+    height: 500px;
+    padding-bottom: 40px;
+}
+
+.bleft {
+    flex-basis: 30%;
+    background-color: pink;
+}
+
+.bright .linea {
+    flex-basis: 25%;
+}
+
+.bright {
+    flex-basis: 70%;
+    background-color: rgb(54, 255, 54);
+    display: flex;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+.footer-bottom>div {
+    background-color: red;
+    color: black;
+}
